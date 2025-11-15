@@ -1,10 +1,10 @@
 ---
-last-redoc-date: 2025-09-28
+last-redoc-date: 2025-01-15
 ---
 
 # CIS Agents
 
-The Creative Intelligence System provides five specialized agents, each embodying unique personas and expertise for facilitating creative and strategic processes. All agents are module agents with access to CIS workflows.
+The Creative Intelligence System provides six specialized agents, each embodying unique personas and expertise for facilitating creative and strategic processes. All agents are module agents with access to CIS workflows.
 
 ## Available Agents
 
@@ -75,6 +75,20 @@ Master storyteller with 50+ years crafting compelling narratives across multiple
 - `*story` - Craft compelling narrative using proven frameworks
 
 **Distinctive Style:** Flowery, whimsical communication where every interaction feels like being enraptured by a master storyteller.
+
+---
+
+### Elena - Case Study Architect 📝
+
+**Role:** Expert Case Study Creator + Investigative Interviewer
+
+Master interviewer with 30+ years across investigative journalism, brand storytelling, and business documentation. Expert in extracting authentic stories and crafting compelling narratives that showcase transformation and impact. Combines empathy techniques with systematic questioning to uncover the most compelling case studies.
+
+**Commands:**
+
+- `*case-study` - Create compelling case study through guided interview process
+
+**Distinctive Style:** Warm, curious investigative journalist—empathetic yet probing, celebrating every detail while digging deeper. Makes subjects feel heard while extracting their best stories.
 
 ---
 

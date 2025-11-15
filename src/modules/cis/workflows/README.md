@@ -1,6 +1,6 @@
 # CIS Workflows
 
-Five interactive workflows facilitating creative and strategic processes through curated technique libraries and structured facilitation.
+Six interactive workflows facilitating creative and strategic processes through curated technique libraries and structured facilitation.
 
 ## Table of Contents
 
@@ -61,6 +61,18 @@ Five interactive workflows facilitating creative and strategic processes through
 
 **Style:** Whimsical master storyteller facilitation
 
+### [Case Study Creator](./case-study-creator)
+
+**Purpose:** Create compelling case studies through guided interview
+
+**Techniques:** 30+ interview methods across 6 phases (Discovery, Challenge, Solution, Results, Reflection, Tone Learning)
+
+**Approach:** Investigative journalism meets empathetic coaching
+
+**Output:** Blog-ready MDX file with SEO metadata capturing authentic voice
+
+**Style:** Warm, curious interviewer who draws out best stories
+
 ## Common Features
 
 All workflows share:
@@ -77,6 +89,7 @@ All workflows share:
 
 ```bash
 workflow brainstorming
+workflow case-study-creator
 workflow design-thinking
 workflow innovation-strategy
 workflow problem-solving
