@@ -1,6 +1,6 @@
 # CIS Workflows
 
-Nine interactive workflows facilitating creative and strategic processes through curated technique libraries and structured facilitation.
+Ten interactive workflows facilitating creative and strategic processes through curated technique libraries and structured facilitation.
 
 ## Table of Contents
 
@@ -109,6 +109,18 @@ Nine interactive workflows facilitating creative and strategic processes through
 
 **Style:** Empathetic reputation coach who makes authenticity easy and turns critics into advocates
 
+### [Local SEO Storytelling](./local-seo-storytelling)
+
+**Purpose:** Create SEO-optimized content for local businesses that ranks and converts
+
+**Techniques:** 30 local SEO techniques across 5 phases (Discovery, Research, Strategy, Creation, Optimization)
+
+**Approach:** Keyword research combined with storytelling to create content Google and humans love
+
+**Output:** Complete SEO content package with service pages, 12-month blog calendar, GMB templates, implementation roadmap
+
+**Style:** Warm SEO strategist who speaks plainly and finds stories in data - balance of creative and technical
+
 ## Common Features
 
 All workflows share:
@@ -129,6 +141,7 @@ workflow case-study-creator
 workflow customer-journey-mapping
 workflow design-thinking
 workflow innovation-strategy
+workflow local-seo-storytelling
 workflow problem-solving
 workflow review-response-coaching
 workflow social-media-sprint
