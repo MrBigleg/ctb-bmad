@@ -1,6 +1,6 @@
 # CIS Workflows
 
-Seven interactive workflows facilitating creative and strategic processes through curated technique libraries and structured facilitation.
+Eight interactive workflows facilitating creative and strategic processes through curated technique libraries and structured facilitation.
 
 ## Table of Contents
 
@@ -85,6 +85,18 @@ Seven interactive workflows facilitating creative and strategic processes throug
 
 **Style:** Energetic, action-oriented coach with practical "Let's GO!" energy
 
+### [Customer Journey Mapping](./customer-journey-mapping)
+
+**Purpose:** Map complete customer experience from discovery to loyalty
+
+**Techniques:** 28 journey mapping techniques across 5 phases (Discovery, Consideration, Experience, Friction, Delight, Retention)
+
+**Approach:** Empathetic UX research with systematic touchpoint analysis
+
+**Output:** Visual Mermaid journey diagram, touchpoint inventory, friction analysis, 10 Quick Wins action plan
+
+**Style:** Visual thinker who celebrates friction as opportunity and designs wow moments
+
 ## Common Features
 
 All workflows share:
@@ -102,6 +114,7 @@ All workflows share:
 ```bash
 workflow brainstorming
 workflow case-study-creator
+workflow customer-journey-mapping
 workflow design-thinking
 workflow innovation-strategy
 workflow problem-solving
