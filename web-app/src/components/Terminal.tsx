@@ -15,12 +15,12 @@ interface Workflow {
 }
 
 const workflows: Workflow[] = [
-  { name: 'Brainstorming', description: 'Facilitate interactive brainstorming sessions using diverse creative techniques', category: 'Creative' },
-  { name: 'Storytelling', description: 'Craft compelling narratives using proven story frameworks and techniques', category: 'Creative' },
-  { name: 'Party Mode', description: 'Orchestrate group discussions between multiple agents for dynamic collaboration', category: 'Creative' },
-  { name: 'Design Thinking', description: 'Guide human-centered design processes using empathy-driven methodologies', category: 'Methodology' },
-  { name: 'Problem Solving', description: 'Apply systematic problem-solving methodologies to crack complex challenges', category: 'Methodology' },
-  { name: 'Innovation Strategy', description: 'Identify disruption opportunities and architect business model innovation', category: 'Strategy' },
+  { name: 'ระดมความคิด', description: 'อำนวยความสะดวกในการประชุมระดมความคิดแบบโต้ตอบโดยใช้เทคนิคการสร้างสรรค์ที่หลากหลาย', category: 'สร้างสรรค์' },
+  { name: 'การเล่าเรื่อง', description: 'สร้างเรื่องเล่าที่น่าสนใจโดยใช้กรอบการทำงานเรื่องเล่าที่พิสูจน์แล้ว', category: 'สร้างสรรค์' },
+  { name: 'โหมดปาร์ตี้', description: 'จัดการการอภิปรายกลุ่มระหว่างตัวแทนหลายตัวเพื่อการทำงานร่วมกันที่มีพลวัต', category: 'สร้างสรรค์' },
+  { name: 'ดีไซน์ทิงกิ้ง', description: 'แนะนำกระบวนการออกแบบที่เน้นมนุษย์เป็นศูนย์กลางโดยใช้วิธีการที่ขับเคลื่อนด้วยความเห็นอกเห็นใจ', category: 'วิธีการ' },
+  { name: 'การแก้ปัญหา', description: 'ประยุกต์ใช้วิธีการแก้ปัญหาอย่างเป็นระบบเพื่อถอดรหัสความท้าทายที่ซับซ้อน', category: 'วิธีการ' },
+  { name: 'กลยุทธ์นวัตกรรม', description: 'ระบุโอกาสในการสร้างการเปลี่ยนแปลงและสถาปัตยกรรมนวัตกรรมโมเดลธุรกิจ', category: 'กลยุทธ์' },
 ];
 
 export const Terminal = () => {
@@ -43,7 +43,7 @@ export const Terminal = () => {
       setMessages([
         {
           id: 1,
-          text: '> BMAD Method - AI Workflow Orchestrator',
+          text: '> วิธีการ BMAD - ระบบจัดการเวิร์กโฟลว์ AI',
           type: 'system'
         },
       ]);
@@ -59,8 +59,8 @@ export const Terminal = () => {
   const handleTypewriterComplete = () => {
     if (currentStep === 0) {
       setTimeout(() => {
-        addMessage('\nHi! What would you like to build today?', 'prompt');
-        addMessage('\nI can help you with various workflows. Type "list" to see available options, or describe what you\'d like to do:', 'system');
+        addMessage('\nสวัสดี! วันนี้คุณอยากสร้างอะไร?', 'prompt');
+        addMessage('\nฉันสามารถช่วยคุณด้วยเวิร์กโฟลว์ต่างๆ พิมพ์ "รายการ" เพื่อดูตัวเลือกที่มี หรือบอกเราว่าคุณต้องการทำอะไร:', 'system');
         setCurrentStep(1);
       }, 300);
     }
@@ -74,8 +74,8 @@ export const Terminal = () => {
 
     const input = userInput.toLowerCase().trim();
 
-    if (input === 'list' || input === 'help') {
-      addMessage('\n📋 Available Workflows:\n', 'system');
+    if (input === 'รายการ' || input === 'ช่วยเหลือ' || input === 'list' || input === 'help') {
+      addMessage('\n📋 เวิร์กโฟลว์ที่มี:\n', 'system');
 
       const categories = [...new Set(workflows.map(w => w.category))];
       categories.forEach(category => {
@@ -86,7 +86,7 @@ export const Terminal = () => {
         });
       });
 
-      addMessage('\n\nSelect a workflow by typing its name or number, or describe what you want to do:', 'prompt');
+      addMessage('\n\nเลือกเวิร์กโฟลว์โดยพิมพ์ชื่อหรือหมายเลข หรือบอกเราว่าคุณต้องการทำอะไร:', 'prompt');
     } else {
       // Check if input matches a workflow
       const matchedWorkflow = workflows.find(
@@ -95,24 +95,24 @@ export const Terminal = () => {
       );
 
       if (matchedWorkflow) {
-        addMessage(`\n✓ Starting ${matchedWorkflow.name} workflow...`, 'system');
+        addMessage(`\n✓ กำลังเริ่ม ${matchedWorkflow.name}...`, 'system');
         addMessage(`\n${matchedWorkflow.description}`, 'system');
-        addMessage('\n\nThis is a demo interface. In a full implementation, this would launch the selected workflow with the BMAD orchestrator.', 'system');
-        addMessage('\n\nType "list" to see workflows again, or "clear" to start over.', 'prompt');
-      } else if (input === 'clear') {
+        addMessage('\n\nนี่คืออินเทอร์เฟซสาธิต ในการใช้งานจริง จะเป็นการเปิดเวิร์กโฟลว์ที่เลือกด้วย BMAD orchestrator', 'system');
+        addMessage('\n\nพิมพ์ "รายการ" เพื่อดูเวิร์กโฟลว์อีกครั้ง หรือ "ล้าง" เพื่อเริ่มใหม่', 'prompt');
+      } else if (input === 'ล้าง' || input === 'clear') {
         setMessages([]);
         setCurrentStep(0);
         setTimeout(() => {
-          addMessage('> BMAD Method - AI Workflow Orchestrator', 'system');
+          addMessage('> วิธีการ BMAD - ระบบจัดการเวิร์กโฟลว์ AI', 'system');
         }, 100);
       } else {
         // AI would analyze the request and suggest workflows
-        addMessage('\n🤔 Analyzing your request...', 'system');
+        addMessage('\n🤔 กำลังวิเคราะห์คำขอของคุณ...', 'system');
         setTimeout(() => {
-          addMessage('\nBased on your input, I recommend the following workflows:', 'system');
-          addMessage('  1. Brainstorming - for creative ideation', 'system');
-          addMessage('  2. Problem Solving - for structured analysis', 'system');
-          addMessage('\nWould you like to start one of these? Type the name or number, or type "list" for all options.', 'prompt');
+          addMessage('\nจากข้อมูลของคุณ ฉันขอแนะนำเวิร์กโฟลว์ต่อไปนี้:', 'system');
+          addMessage('  1. ระดมความคิด - สำหรับการสร้างไอเดีย', 'system');
+          addMessage('  2. การแก้ปัญหา - สำหรับการวิเคราะห์อย่างเป็นระบบ', 'system');
+          addMessage('\nคุณต้องการเริ่มต้นหนึ่งในนี้หรือไม่? พิมพ์ชื่อหรือหมายเลข หรือพิมพ์ "รายการ" สำหรับตัวเลือกทั้งหมด', 'prompt');
         }, 1000);
       }
     }
@@ -186,7 +186,7 @@ export const Terminal = () => {
                 value={userInput}
                 onChange={(e) => setUserInput(e.target.value)}
                 className="flex-1 bg-transparent outline-none text-terminal-text placeholder-terminal-text/40"
-                placeholder="Type your command..."
+                placeholder="พิมพ์คำสั่งของคุณ..."
                 autoFocus
               />
             </form>

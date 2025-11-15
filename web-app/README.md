@@ -1,112 +1,126 @@
-# BMAD Method - Web Interface
+# BMAD Method - อินเทอร์เฟซเว็บ (ฉบับภาษาไทย)
 
-A beautiful, typewriter-style CLI web interface for the BMAD Method AI Workflow Orchestrator.
+อินเทอร์เฟซเว็บ CLI สไตล์พิมพ์ดีดที่สวยงามสำหรับระบบจัดการเวิร์กโฟลว์ AI วิธีการ BMAD
 
-## Features
+## คุณสมบัติ
 
-- 🖥️ **Terminal-style UI** - Clean, retro terminal interface with typewriter effects
-- ⚡ **Fast & Modern** - Built with Vite, React, and TypeScript
-- 🎨 **Beautiful Animations** - Smooth typewriter effects powered by Framer Motion
-- 📱 **Responsive Design** - Works on all devices
-- 🎯 **Workflow Selection** - Easy navigation through available workflows
+- 🖥️ **UI สไตล์เทอร์มินัล** - อินเทอร์เฟซเทอร์มินัลแบบย้อนยุคที่สะอาดตาพร้อมเอฟเฟกต์พิมพ์ดีด
+- ⚡ **รวดเร็วและทันสมัย** - สร้างด้วย Vite, React และ TypeScript
+- 🎨 **แอนิเมชันสวยงาม** - เอฟเฟกต์พิมพ์ดีดที่ลื่นไหลขับเคลื่อนโดย Framer Motion
+- 📱 **ออกแบบแบบตอบสนอง** - ทำงานได้กับทุกอุปกรณ์
+- 🎯 **การเลือกเวิร์กโฟลว์** - นำทางผ่านเวิร์กโฟลว์ที่มีได้อย่างง่ายดาย
 
-## Tech Stack
+## เทคโนโลยีที่ใช้
 
-- **Vite** - Lightning-fast build tool
-- **React** - UI library
-- **TypeScript** - Type safety
-- **Tailwind CSS** - Utility-first styling
-- **Framer Motion** - Smooth animations
+- **Vite** - เครื่องมือสร้างที่รวดเร็วเหมือนฟ้าแลบ
+- **React** - ไลบรารี UI
+- **TypeScript** - ความปลอดภัยของประเภท
+- **Tailwind CSS** - การจัดรูปแบบ utility-first
+- **Framer Motion** - แอนิเมชันที่ลื่นไหล
 
-## Getting Started
+## เริ่มต้นใช้งาน
 
-### Development
+### การพัฒนา
 
 ```bash
-# Install dependencies
+# ติดตั้ง dependencies
 npm install
 
-# Start development server
+# เริ่มเซิร์ฟเวอร์พัฒนา
 npm run dev
 ```
 
-Visit `http://localhost:5173` to see the app.
+เยี่ยมชม `http://localhost:5173` เพื่อดูแอป
 
-### Build for Production
+### สร้างสำหรับการใช้งานจริง
 
 ```bash
-# Build the app
+# สร้างแอป
 npm run build
 
-# Preview production build
+# ดูตัวอย่างการสร้างสำหรับการใช้งานจริง
 npm run preview
 ```
 
-## Deployment
+## การปรับใช้
 
-### Deploy to Vercel
+### ปรับใช้ไปยัง Vercel
 
-The easiest way to deploy this app is using Vercel:
+วิธีที่ง่ายที่สุดในการปรับใช้แอปนี้คือการใช้ Vercel:
 
-1. Push your code to GitHub
-2. Import your repository on [Vercel](https://vercel.com)
-3. Vercel will automatically detect Vite and deploy
+1. พุชโค้ดของคุณไปยัง GitHub
+2. นำเข้าที่เก็บของคุณบน [Vercel](https://vercel.com)
+3. Vercel จะตรวจพบ Vite และปรับใช้โดยอัตโนมัติ
 
-Or use the Vercel CLI:
+หรือใช้ Vercel CLI:
 
 ```bash
 npm install -g vercel
 vercel
 ```
 
-### Deploy to Netlify
+### ปรับใช้ไปยัง Netlify
 
 ```bash
-# Build the app
+# สร้างแอป
 npm run build
 
-# Deploy the dist folder to Netlify
+# ปรับใช้โฟลเดอร์ dist ไปยัง Netlify
 ```
 
-Or connect your Git repository to Netlify for automatic deployments.
+หรือเชื่อมต่อที่เก็บ Git ของคุณกับ Netlify สำหรับการปรับใช้อัตโนมัติ
 
-## Available Commands
+## คำสั่งที่มี
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+- `npm run dev` - เริ่มเซิร์ฟเวอร์พัฒนา
+- `npm run build` - สร้างสำหรับการใช้งานจริง
+- `npm run preview` - ดูตัวอย่างการสร้างสำหรับการใช้งานจริง
+- `npm run lint` - เรียกใช้ ESLint
 
-## Using the Terminal Interface
+## การใช้งานอินเทอร์เฟซเทอร์มินัล
 
-1. **Start the app** - The terminal will greet you with a typewriter effect
-2. **Type "list"** - See all available workflows
-3. **Select a workflow** - Type the name or number of a workflow
-4. **Explore** - Ask questions or describe what you want to build
+1. **เริ่มแอป** - เทอร์มินัลจะทักทายคุณด้วยเอฟเฟกต์พิมพ์ดีด
+2. **พิมพ์ "รายการ"** - ดูเวิร์กโฟลว์ที่มีทั้งหมด
+3. **เลือกเวิร์กโฟลว์** - พิมพ์ชื่อหรือหมายเลขของเวิร์กโฟลว์
+4. **สำรวจ** - ถามคำถามหรือบอกว่าคุณต้องการสร้างอะไร
 
-### Example Commands
+### คำสั่งตัวอย่าง
 
-- `list` - Show all available workflows
-- `help` - Display help information
-- `clear` - Clear the terminal and start over
-- Type a workflow name or number to select it
+- `รายการ` - แสดงเวิร์กโฟลว์ที่มีทั้งหมด
+- `ช่วยเหลือ` - แสดงข้อมูลความช่วยเหลือ
+- `ล้าง` - ล้างเทอร์มินัลและเริ่มใหม่
+- พิมพ์ชื่อเวิร์กโฟลว์หรือหมายเลขเพื่อเลือก
 
-## Customization
+## เวิร์กโฟลว์ที่มี
 
-### Modify Workflows
+**สร้างสรรค์:**
+- **ระดมความคิด** - อำนวยความสะดวกในการประชุมระดมความคิดแบบโต้ตอบโดยใช้เทคนิคการสร้างสรรค์ที่หลากหลาย
+- **การเล่าเรื่อง** - สร้างเรื่องเล่าที่น่าสนใจโดยใช้กรอบการทำงานเรื่องเล่าที่พิสูจน์แล้ว
+- **โหมดปาร์ตี้** - จัดการการอภิปรายกลุ่มระหว่างตัวแทนหลายตัวเพื่อการทำงานร่วมกันที่มีพลวัต
 
-Edit the workflows array in `src/components/Terminal.tsx`:
+**วิธีการ:**
+- **ดีไซน์ทิงกิ้ง** - แนะนำกระบวนการออกแบบที่เน้นมนุษย์เป็นศูนย์กลางโดยใช้วิธีการที่ขับเคลื่อนด้วยความเห็นอกเห็นใจ
+- **การแก้ปัญหา** - ประยุกต์ใช้วิธีการแก้ปัญหาอย่างเป็นระบบเพื่อถอดรหัสความท้าทายที่ซับซ้อน
+
+**กลยุทธ์:**
+- **กลยุทธ์นวัตกรรม** - ระบุโอกาสในการสร้างการเปลี่ยนแปลงและสถาปัตยกรรมนวัตกรรมโมเดลธุรกิจ
+
+## การปรับแต่ง
+
+### แก้ไขเวิร์กโฟลว์
+
+แก้ไขอาร์เรย์เวิร์กโฟลว์ใน `src/components/Terminal.tsx`:
 
 ```typescript
 const workflows: Workflow[] = [
-  { name: 'Your Workflow', description: 'Description', category: 'Category' },
-  // Add more workflows
+  { name: 'เวิร์กโฟลว์ของคุณ', description: 'คำอธิบาย', category: 'หมวดหมู่' },
+  // เพิ่มเวิร์กโฟลว์เพิ่มเติม
 ];
 ```
 
-### Change Theme Colors
+### เปลี่ยนสีธีม
 
-Edit the terminal colors in `tailwind.config.js`:
+แก้ไขสีเทอร์มินัลใน `tailwind.config.js`:
 
 ```javascript
 colors: {
@@ -114,11 +128,11 @@ colors: {
     bg: '#0a0e14',
     text: '#b3b1ad',
     green: '#7fd962',
-    // ... more colors
+    // ... สีเพิ่มเติม
   },
 }
 ```
 
-## License
+## ใบอนุญาต
 
 MIT
