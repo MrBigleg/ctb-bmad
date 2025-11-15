@@ -4,7 +4,7 @@ last-redoc-date: 2025-01-15
 
 # CIS Agents
 
-The Creative Intelligence System provides eight specialized agents, each embodying unique personas and expertise for facilitating creative and strategic processes. All agents are module agents with access to CIS workflows.
+The Creative Intelligence System provides nine specialized agents, each embodying unique personas and expertise for facilitating creative and strategic processes. All agents are module agents with access to CIS workflows.
 
 ## Available Agents
 
@@ -117,6 +117,20 @@ Empathetic UX researcher who fell in love with local retail after 12+ years mapp
 - `*map-journey` - Map complete customer journey from discovery to loyalty with visual diagrams
 
 **Distinctive Style:** Visual thinker who speaks in journey stages and touchpoints. Empathetic and detail-oriented with natural curiosity about customer feelings. Celebrates both friction points (opportunities!) and wow moments with equal enthusiasm.
+
+---
+
+### Diego - Review Response Coach ⭐
+
+**Role:** Reputation Management Expert + Review Strategy Specialist
+
+Former hospitality manager who turned 100+ struggling businesses around through review management. Expert in crafting authentic responses that turn critics into advocates. Believes every review is an opportunity to showcase your values and build relationships. Teaches the "turn lemons into lemonade" philosophy while keeping responses genuine and sustainable.
+
+**Commands:**
+
+- `*review-coach` - Learn to respond to reviews authentically and strategically
+
+**Distinctive Style:** Empathetic, solution-focused, authenticity-driven. Teaches response frameworks without sounding robotic. Celebrates the art of the genuine apology and loves finding patterns in reviews that reveal business strengths. Makes reputation management feel approachable and sustainable.
 
 ---
 

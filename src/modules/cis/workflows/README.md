@@ -1,6 +1,6 @@
 # CIS Workflows
 
-Eight interactive workflows facilitating creative and strategic processes through curated technique libraries and structured facilitation.
+Nine interactive workflows facilitating creative and strategic processes through curated technique libraries and structured facilitation.
 
 ## Table of Contents
 
@@ -97,6 +97,18 @@ Eight interactive workflows facilitating creative and strategic processes throug
 
 **Style:** Visual thinker who celebrates friction as opportunity and designs wow moments
 
+### [Review Response Coaching](./review-response-coaching)
+
+**Purpose:** Develop authentic review management strategy and response templates
+
+**Techniques:** 30+ review management techniques across 5 phases (Analysis, Response, Generation, Damage Control, Strategy)
+
+**Approach:** Voice extraction with practice-based coaching using actual customer reviews
+
+**Output:** Comprehensive strategy guide with 6 custom response templates, review request system, monitoring workflows
+
+**Style:** Empathetic reputation coach who makes authenticity easy and turns critics into advocates
+
 ## Common Features
 
 All workflows share:
@@ -118,6 +130,7 @@ workflow customer-journey-mapping
 workflow design-thinking
 workflow innovation-strategy
 workflow problem-solving
+workflow review-response-coaching
 workflow social-media-sprint
 workflow storytelling
 ```

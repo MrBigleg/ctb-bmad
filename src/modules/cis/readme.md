@@ -1,6 +1,6 @@
 # CIS - Creative Intelligence Suite
 
-AI-powered creative facilitation transforming strategic thinking through expert coaching across eight specialized domains.
+AI-powered creative facilitation transforming strategic thinking through expert coaching across nine specialized domains.
 
 ## Table of Contents
 
@@ -27,12 +27,13 @@ CIS provides structured creative methodologies through distinctive agent persona
 - **Elena** - Case Study Architect (investigative interviewer)
 - **Marco** - Social Media Sprint Planner (fast-paced content strategist)
 - **Valentina** - Customer Journey Cartographer (empathetic UX researcher)
+- **Diego** - Review Response Coach (empathetic reputation strategist)
 
 ## Interactive Workflows
 
 [View all workflows →](./workflows/README.md)
 
-**8 Workflows** with **240+ Creative Techniques:**
+**9 Workflows** with **270+ Creative Techniques:**
 
 ### Brainstorming
 
@@ -106,6 +107,17 @@ Business model disruption
 - Friction point analysis with root causes
 - 10 Quick Wins prioritized action plan
 - Monthly review and optimization framework
+
+### Review Response Coaching
+
+30+ review management techniques across 5 phases
+
+- Analysis, response, generation, damage control, strategy
+- Brand voice extraction and authentic template creation
+- 6 custom response templates for all review scenarios
+- Review request system with email, SMS, and in-person scripts
+- Sustainable monitoring workflows and weekly rituals
+- Practice-based coaching with actual customer reviews
 
 ## Quick Start
 
