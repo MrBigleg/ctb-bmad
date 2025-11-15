@@ -1,6 +1,6 @@
 # CIS - Creative Intelligence Suite
 
-AI-powered creative facilitation transforming strategic thinking through expert coaching across six specialized domains.
+AI-powered creative facilitation transforming strategic thinking through expert coaching across seven specialized domains.
 
 ## Table of Contents
 
@@ -25,12 +25,13 @@ CIS provides structured creative methodologies through distinctive agent persona
 - **Victor** - Innovation Oracle (bold strategic precision)
 - **Sophia** - Master Storyteller (whimsical narrator)
 - **Elena** - Case Study Architect (investigative interviewer)
+- **Marco** - Social Media Sprint Planner (fast-paced content strategist)
 
 ## Interactive Workflows
 
 [View all workflows →](./workflows/README.md)
 
-**6 Workflows** with **180+ Creative Techniques:**
+**7 Workflows** with **210+ Creative Techniques:**
 
 ### Brainstorming
 
@@ -83,6 +84,17 @@ Business model disruption
 - Results and impact measurement
 - MDX output for blog publishing
 
+### Social Media Sprint Planner
+
+30+ content techniques across 5 categories
+
+- Educational, entertainment, engagement, promotional pillars
+- Platform-specific strategies (Instagram, Facebook, TikTok, LinkedIn)
+- Local and seasonal content integration
+- Content batching and scheduling plans
+- 30-day calendar in 30 minutes
+- Caption templates and hashtag banks
+
 ## Quick Start
 
 ### Direct Workflow
@@ -127,13 +139,14 @@ communication_language: english
 
 ```
 cis/
-├── agents/              # 6 specialized facilitators
-├── workflows/           # 6 interactive processes
+├── agents/              # 7 specialized facilitators
+├── workflows/           # 7 interactive processes
 │   ├── brainstorming/
 │   ├── case-study-creator/
 │   ├── design-thinking/
 │   ├── innovation-strategy/
 │   ├── problem-solving/
+│   ├── social-media-sprint/
 │   └── storytelling/
 ├── tasks/              # Supporting operations
 └── teams/              # Agent collaborations

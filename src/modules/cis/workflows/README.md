@@ -1,6 +1,6 @@
 # CIS Workflows
 
-Six interactive workflows facilitating creative and strategic processes through curated technique libraries and structured facilitation.
+Seven interactive workflows facilitating creative and strategic processes through curated technique libraries and structured facilitation.
 
 ## Table of Contents
 
@@ -73,6 +73,18 @@ Six interactive workflows facilitating creative and strategic processes through 
 
 **Style:** Warm, curious interviewer who draws out best stories
 
+### [Social Media Sprint Planner](./social-media-sprint)
+
+**Purpose:** Create 30-day social media content calendar in 30 minutes
+
+**Techniques:** 30+ content techniques across 5 categories (Educational, Entertainment, Engagement, Promotional, Local Hooks)
+
+**Approach:** Fast-paced strategic planning with platform-specific tactics
+
+**Output:** Complete content calendar with captions, hashtags, batching plan, and implementation guide
+
+**Style:** Energetic, action-oriented coach with practical "Let's GO!" energy
+
 ## Common Features
 
 All workflows share:
@@ -93,6 +105,7 @@ workflow case-study-creator
 workflow design-thinking
 workflow innovation-strategy
 workflow problem-solving
+workflow social-media-sprint
 workflow storytelling
 ```
 
