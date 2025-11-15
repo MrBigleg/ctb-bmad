@@ -15,13 +15,12 @@ interface Workflow {
 }
 
 const workflows: Workflow[] = [
-  { name: 'Brainstorming', description: 'Interactive brainstorming session with creative techniques', category: 'Creative' },
-  { name: 'Party Mode', description: 'Fun and energetic collaboration session', category: 'Creative' },
-  { name: 'Problem Solving', description: 'Structured approach to solving complex problems', category: 'Strategy' },
-  { name: 'Storytelling', description: 'Craft compelling narratives and stories', category: 'Creative' },
-  { name: 'Innovation Strategy', description: 'Develop innovative strategies for your projects', category: 'Strategy' },
-  { name: 'Game Development', description: 'Plan and design your game projects', category: 'Development' },
-  { name: 'Code Review', description: 'Comprehensive code review and improvement', category: 'Development' },
+  { name: 'Brainstorming', description: 'Facilitate interactive brainstorming sessions using diverse creative techniques', category: 'Creative' },
+  { name: 'Storytelling', description: 'Craft compelling narratives using proven story frameworks and techniques', category: 'Creative' },
+  { name: 'Party Mode', description: 'Orchestrate group discussions between multiple agents for dynamic collaboration', category: 'Creative' },
+  { name: 'Design Thinking', description: 'Guide human-centered design processes using empathy-driven methodologies', category: 'Methodology' },
+  { name: 'Problem Solving', description: 'Apply systematic problem-solving methodologies to crack complex challenges', category: 'Methodology' },
+  { name: 'Innovation Strategy', description: 'Identify disruption opportunities and architect business model innovation', category: 'Strategy' },
 ];
 
 export const Terminal = () => {
