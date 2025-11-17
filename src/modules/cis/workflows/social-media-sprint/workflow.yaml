@@ -1,0 +1,38 @@
+# Social Media Sprint Planner Workflow Configuration
+name: "social-media-sprint"
+description: "Create 30-day social media content calendar in 30 minutes. Platform-specific content ideas, caption templates, hashtag strategies, and batching schedules for busy local business owners who need consistent social presence without the overwhelm."
+author: "BMad"
+
+# Critical variables load from config_source
+config_source: "{project-root}/{bmad_folder}/cis/config.yaml"
+output_folder: "{config_source}:output_folder"
+user_name: "{config_source}:user_name"
+communication_language: "{config_source}:communication_language"
+date: system-generated
+
+# Context can be provided via data attribute when invoking
+# Example: data="{path}/brand-guidelines.md" provides brand context
+
+# Module path and component files
+installed_path: "{project-root}/{bmad_folder}/cis/workflows/social-media-sprint"
+template: "{installed_path}/template.md"
+instructions: "{installed_path}/instructions.md"
+
+# Required Data Files
+social_techniques: "{installed_path}/social-media-techniques.csv"
+
+# Output configuration
+default_output_file: "{output_folder}/social-calendar-{{date}}.md"
+
+standalone: true
+
+web_bundle:
+  name: "social-media-sprint"
+  description: "Create 30-day social media content calendar in 30 minutes. Platform-specific content, batching strategies, and local engagement tactics for consistent social presence."
+  author: "BMad"
+  instructions: "{bmad_folder}/cis/workflows/social-media-sprint/instructions.md"
+  template: "{bmad_folder}/cis/workflows/social-media-sprint/template.md"
+  web_bundle_files:
+    - "{bmad_folder}/cis/workflows/social-media-sprint/instructions.md"
+    - "{bmad_folder}/cis/workflows/social-media-sprint/template.md"
+    - "{bmad_folder}/cis/workflows/social-media-sprint/social-media-techniques.csv"

@@ -1,0 +1,35 @@
+category,technique_name,description,platform_fit,content_ideas
+pillar_educational,How-To Content,Educational posts teaching something valuable to your audience,All,Quick tips|Step-by-step tutorials|Common mistakes|Pro tips|FAQ answers
+pillar_educational,Industry Insights,Share expertise and industry knowledge to position as authority,LinkedIn Facebook,Industry trends|Market updates|Expert commentary|Predictions|Analysis
+pillar_educational,Tips and Tricks,Bite-sized actionable advice followers can implement immediately,Instagram TikTok,Life hacks|Productivity tips|Money-saving ideas|Time-savers|Shortcuts
+pillar_educational,Myth Busting,Debunk common misconceptions in your industry,All,Common myths|What people get wrong|Truth vs fiction|Misconceptions|Reality check
+pillar_entertainment,Behind the Scenes,Give followers exclusive peek into your business operations,Instagram TikTok,Daily operations|Prep work|Team in action|Process reveals|Day in the life
+pillar_entertainment,Team Spotlights,Showcase your team members and their personalities,Facebook Instagram,Employee features|Team introductions|Fun facts|Birthday celebrations|Achievements
+pillar_entertainment,Customer Stories,Share real customer experiences and testimonials,All,Success stories|Transformation stories|Customer spotlights|Reviews brought to life|Impact stories
+pillar_entertainment,Humor and Memes,Relatable funny content that humanizes your brand,Instagram TikTok,Industry humor|Relatable memes|Funny observations|Playful content|Lighthearted moments
+pillar_engagement,Questions and Polls,Ask audience for their opinions to drive interaction,Instagram Stories Facebook,This or that|Opinion polls|Preference questions|Advice requests|Vote on options
+pillar_engagement,User Generated Content,Reshare customer photos reviews and experiences,Instagram,Customer photos|Review screenshots|Tagged content|Testimonial graphics|Community highlights
+pillar_engagement,Contests and Giveaways,Run promotions to boost engagement and grow following,All,Photo contests|Caption contests|Tag a friend|Share to win|Comment to enter
+pillar_engagement,Fill in the Blank,Interactive posts where audience completes the sentence,Instagram Facebook,Finish this sentence|My favorite X is|I love when|Best part of|Complete the thought
+pillar_promotional,Product Highlights,Showcase specific products or services with benefits,All,Feature highlights|Product demos|Before and after|Use cases|Problem solving
+pillar_promotional,Special Offers,Announce sales promotions and limited-time deals,All,Flash sales|Discount codes|Limited offers|Early bird deals|Exclusive promotions
+pillar_promotional,New Arrivals,Introduce new products services or menu items,Instagram Facebook,New launches|Menu updates|Service additions|Seasonal items|Fresh inventory
+pillar_promotional,Testimonial Graphics,Design quote graphics featuring customer reviews,All,5-star reviews|Success quotes|Customer praise|Rating highlights|Recommendation quotes
+local_hooks,Local Events,Tie content to local happenings and community events,All,Festival tie-ins|Local celebrations|Community events|Town activities|Neighborhood news
+local_hooks,Seasonal Local,Connect to local seasonal patterns and weather,All,Weather-related|Season changes|Local traditions|Regional holidays|Climate content
+local_hooks,Community Partnerships,Highlight collaborations with other local businesses,Facebook Instagram,Partner spotlights|Collab announcements|Cross-promotions|Local love|Community support
+local_hooks,Local Pride,Celebrate your community and local identity,All,Hometown love|Local landmarks|Area history|Community pride|Regional culture
+platform_instagram,Reels,Short-form video content optimized for Instagram discovery,Instagram,Tutorials|Transformations|Day in life|Quick tips|Trending audio
+platform_instagram,Carousels,Multi-image posts that drive high engagement,Instagram,Before and after slides|Step-by-step guides|Listicles|Myth busting|Story sequences
+platform_instagram,Stories,Ephemeral 24-hour content for daily connection,Instagram,Polls|Questions|BTS moments|Quick updates|Real-time content
+platform_instagram,Story Highlights,Curated story collections saved to profile,Instagram,FAQ highlight|Products|Services|Reviews|About us
+platform_facebook,Live Video,Real-time video broadcasts for authentic connection,Facebook,Q&A sessions|Behind scenes tours|Product demos|Announcements|Events
+platform_facebook,Community Posts,Conversation starters that build community,Facebook,Discussion questions|Local topics|Advice threads|Community help|Shared experiences
+platform_facebook,Event Promotion,Leverage Facebook events for visibility,Facebook,Event announcements|Event updates|Countdown posts|Live event coverage|Recap posts
+platform_tiktok,Trending Sounds,Use popular audio to increase discoverability,TikTok,Trending audio|Viral sounds|Popular music|Sound challenges|Audio trends
+platform_tiktok,Quick Tips,Fast-paced educational content under 60 seconds,TikTok,Rapid tips|Speed tutorials|Quick hacks|Fast facts|Bite-sized lessons
+platform_tiktok,Day in the Life,Show authentic business operations and routines,TikTok,Morning routine|Prep process|Daily operations|Behind scenes|Real moments
+batching,Theme Days,Assign specific content types to days of the week,All,Monday motivation|Tip Tuesday|Behind-scenes Wednesday|Throwback Thursday|Feature Friday
+batching,Content Buckets,Organize content into repeatable categories,All,Educational bucket|Entertainment bucket|Promotional bucket|Engagement bucket|Seasonal bucket
+batching,Batch Creation,Create multiple pieces of content in single session,All,Photo day|Caption writing day|Video recording day|Graphic design day|Scheduling day
+batching,Repurposing,Transform one piece of content into multiple formats,All,Blog to carousel|Video to tips|Podcast to quotes|Webinar to clips|Email to posts

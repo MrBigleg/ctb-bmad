@@ -1,6 +1,6 @@
 # CIS Workflows
 
-Five interactive workflows facilitating creative and strategic processes through curated technique libraries and structured facilitation.
+Ten interactive workflows facilitating creative and strategic processes through curated technique libraries and structured facilitation.
 
 ## Table of Contents
 
@@ -61,6 +61,66 @@ Five interactive workflows facilitating creative and strategic processes through
 
 **Style:** Whimsical master storyteller facilitation
 
+### [Case Study Creator](./case-study-creator)
+
+**Purpose:** Create compelling case studies through guided interview
+
+**Techniques:** 30+ interview methods across 6 phases (Discovery, Challenge, Solution, Results, Reflection, Tone Learning)
+
+**Approach:** Investigative journalism meets empathetic coaching
+
+**Output:** Blog-ready MDX file with SEO metadata capturing authentic voice
+
+**Style:** Warm, curious interviewer who draws out best stories
+
+### [Social Media Sprint Planner](./social-media-sprint)
+
+**Purpose:** Create 30-day social media content calendar in 30 minutes
+
+**Techniques:** 30+ content techniques across 5 categories (Educational, Entertainment, Engagement, Promotional, Local Hooks)
+
+**Approach:** Fast-paced strategic planning with platform-specific tactics
+
+**Output:** Complete content calendar with captions, hashtags, batching plan, and implementation guide
+
+**Style:** Energetic, action-oriented coach with practical "Let's GO!" energy
+
+### [Customer Journey Mapping](./customer-journey-mapping)
+
+**Purpose:** Map complete customer experience from discovery to loyalty
+
+**Techniques:** 28 journey mapping techniques across 5 phases (Discovery, Consideration, Experience, Friction, Delight, Retention)
+
+**Approach:** Empathetic UX research with systematic touchpoint analysis
+
+**Output:** Visual Mermaid journey diagram, touchpoint inventory, friction analysis, 10 Quick Wins action plan
+
+**Style:** Visual thinker who celebrates friction as opportunity and designs wow moments
+
+### [Review Response Coaching](./review-response-coaching)
+
+**Purpose:** Develop authentic review management strategy and response templates
+
+**Techniques:** 30+ review management techniques across 5 phases (Analysis, Response, Generation, Damage Control, Strategy)
+
+**Approach:** Voice extraction with practice-based coaching using actual customer reviews
+
+**Output:** Comprehensive strategy guide with 6 custom response templates, review request system, monitoring workflows
+
+**Style:** Empathetic reputation coach who makes authenticity easy and turns critics into advocates
+
+### [Local SEO Storytelling](./local-seo-storytelling)
+
+**Purpose:** Create SEO-optimized content for local businesses that ranks and converts
+
+**Techniques:** 30 local SEO techniques across 5 phases (Discovery, Research, Strategy, Creation, Optimization)
+
+**Approach:** Keyword research combined with storytelling to create content Google and humans love
+
+**Output:** Complete SEO content package with service pages, 12-month blog calendar, GMB templates, implementation roadmap
+
+**Style:** Warm SEO strategist who speaks plainly and finds stories in data - balance of creative and technical
+
 ## Common Features
 
 All workflows share:
@@ -77,9 +137,14 @@ All workflows share:
 
 ```bash
 workflow brainstorming
+workflow case-study-creator
+workflow customer-journey-mapping
 workflow design-thinking
 workflow innovation-strategy
+workflow local-seo-storytelling
 workflow problem-solving
+workflow review-response-coaching
+workflow social-media-sprint
 workflow storytelling
 ```
 

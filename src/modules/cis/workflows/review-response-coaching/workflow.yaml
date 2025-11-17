@@ -1,0 +1,38 @@
+# Review Response Coaching Workflow Configuration
+name: "review-response-coaching"
+description: "Learn to respond to online reviews authentically and strategically. Develop custom response templates, review generation tactics, and sustainable monitoring systems that turn every review into a relationship-building opportunity."
+author: "BMad"
+
+# Critical variables load from config_source
+config_source: "{project-root}/{bmad_folder}/cis/config.yaml"
+output_folder: "{config_source}:output_folder"
+user_name: "{config_source}:user_name"
+communication_language: "{config_source}:communication_language"
+date: system-generated
+
+# Context can be provided via data attribute when invoking
+# Example: data="{path}/review-context.md" provides background context
+
+# Module path and component files
+installed_path: "{project-root}/{bmad_folder}/cis/workflows/review-response-coaching"
+template: "{installed_path}/template.md"
+instructions: "{installed_path}/instructions.md"
+
+# Required Data Files
+review_techniques: "{installed_path}/review-techniques.csv"
+
+# Output configuration
+default_output_file: "{output_folder}/review-strategy-{{date}}.md"
+
+standalone: true
+
+web_bundle:
+  name: "review-response-coaching"
+  description: "Learn to respond to online reviews authentically and strategically. Develop custom response templates, review generation tactics, and sustainable monitoring systems."
+  author: "BMad"
+  instructions: "{bmad_folder}/cis/workflows/review-response-coaching/instructions.md"
+  template: "{bmad_folder}/cis/workflows/review-response-coaching/template.md"
+  web_bundle_files:
+    - "{bmad_folder}/cis/workflows/review-response-coaching/instructions.md"
+    - "{bmad_folder}/cis/workflows/review-response-coaching/template.md"
+    - "{bmad_folder}/cis/workflows/review-response-coaching/review-techniques.csv"

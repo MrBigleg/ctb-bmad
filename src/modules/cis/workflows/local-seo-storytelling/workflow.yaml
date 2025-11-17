@@ -1,0 +1,38 @@
+# Local SEO Storytelling Workflow Configuration
+name: "local-seo-storytelling"
+description: "Create SEO-optimized content for local businesses. Research customer keywords, craft compelling service pages, plan blog content, and build a complete local search strategy that ranks and converts."
+author: "BMad"
+
+# Critical variables load from config_source
+config_source: "{project-root}/{bmad_folder}/cis/config.yaml"
+output_folder: "{config_source}:output_folder"
+user_name: "{config_source}:user_name"
+communication_language: "{config_source}:communication_language"
+date: system-generated
+
+# Context can be provided via data attribute when invoking
+# Example: data="{path}/business-context.md" provides background context
+
+# Module path and component files
+installed_path: "{project-root}/{bmad_folder}/cis/workflows/local-seo-storytelling"
+template: "{installed_path}/template.md"
+instructions: "{installed_path}/instructions.md"
+
+# Required Data Files
+local_seo_techniques: "{installed_path}/local-seo-techniques.csv"
+
+# Output configuration
+default_output_file: "{output_folder}/seo-content-package-{{date}}.md"
+
+standalone: true
+
+web_bundle:
+  name: "local-seo-storytelling"
+  description: "Create SEO-optimized content for local businesses. Research customer keywords, craft compelling service pages, and build a complete local search strategy that ranks and converts."
+  author: "BMad"
+  instructions: "{bmad_folder}/cis/workflows/local-seo-storytelling/instructions.md"
+  template: "{bmad_folder}/cis/workflows/local-seo-storytelling/template.md"
+  web_bundle_files:
+    - "{bmad_folder}/cis/workflows/local-seo-storytelling/instructions.md"
+    - "{bmad_folder}/cis/workflows/local-seo-storytelling/template.md"
+    - "{bmad_folder}/cis/workflows/local-seo-storytelling/local-seo-techniques.csv"

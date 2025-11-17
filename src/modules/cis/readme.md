@@ -1,6 +1,6 @@
 # CIS - Creative Intelligence Suite
 
-AI-powered creative facilitation transforming strategic thinking through expert coaching across five specialized domains.
+AI-powered creative facilitation transforming strategic thinking through expert coaching across ten specialized domains.
 
 ## Table of Contents
 
@@ -24,12 +24,17 @@ CIS provides structured creative methodologies through distinctive agent persona
 - **Dr. Quinn** - Problem Solver (detective-scientist hybrid)
 - **Victor** - Innovation Oracle (bold strategic precision)
 - **Sophia** - Master Storyteller (whimsical narrator)
+- **Elena** - Case Study Architect (investigative interviewer)
+- **Marco** - Social Media Sprint Planner (fast-paced content strategist)
+- **Valentina** - Customer Journey Cartographer (empathetic UX researcher)
+- **Diego** - Review Response Coach (empathetic reputation strategist)
+- **Lucia** - Local SEO Storyteller (warm SEO strategist)
 
 ## Interactive Workflows
 
 [View all workflows →](./workflows/README.md)
 
-**5 Workflows** with **150+ Creative Techniques:**
+**10 Workflows** with **300+ Creative Techniques:**
 
 ### Brainstorming
 
@@ -70,6 +75,61 @@ Business model disruption
 - Hero's Journey
 - Story circles
 - Compelling pitch structures
+
+### Case Study Creator
+
+30+ interview techniques across 6 phases
+
+- Discovery and background exploration
+- Challenge identification and analysis
+- Tone and voice learning
+- Solution documentation
+- Results and impact measurement
+- MDX output for blog publishing
+
+### Social Media Sprint Planner
+
+30+ content techniques across 5 categories
+
+- Educational, entertainment, engagement, promotional pillars
+- Platform-specific strategies (Instagram, Facebook, TikTok, LinkedIn)
+- Local and seasonal content integration
+- Content batching and scheduling plans
+- 30-day calendar in 30 minutes
+- Caption templates and hashtag banks
+
+### Customer Journey Mapping
+
+28 journey mapping techniques across 5 phases
+
+- Discovery, consideration, experience, friction, delight, retention stages
+- Visual Mermaid journey diagrams rendering in Markdown
+- Touchpoint inventory and emotional arc tracking
+- Friction point analysis with root causes
+- 10 Quick Wins prioritized action plan
+- Monthly review and optimization framework
+
+### Review Response Coaching
+
+30+ review management techniques across 5 phases
+
+- Analysis, response, generation, damage control, strategy
+- Brand voice extraction and authentic template creation
+- 6 custom response templates for all review scenarios
+- Review request system with email, SMS, and in-person scripts
+- Sustainable monitoring workflows and weekly rituals
+- Practice-based coaching with actual customer reviews
+
+### Local SEO Storytelling
+
+30 local SEO techniques across 5 phases
+
+- Discovery, research, strategy, creation, optimization
+- Customer keyword research and search intent analysis
+- SEO-optimized service pages that tell transformation stories
+- 12-month blog content calendar targeting question keywords
+- Google My Business posting templates and local optimization
+- Complete implementation roadmap with tracking setup
 
 ## Quick Start
 
@@ -115,12 +175,15 @@ communication_language: english
 
 ```
 cis/
-├── agents/              # 5 specialized facilitators
-├── workflows/           # 5 interactive processes
+├── agents/              # 8 specialized facilitators
+├── workflows/           # 8 interactive processes
 │   ├── brainstorming/
+│   ├── case-study-creator/
+│   ├── customer-journey-mapping/
 │   ├── design-thinking/
 │   ├── innovation-strategy/
 │   ├── problem-solving/
+│   ├── social-media-sprint/
 │   └── storytelling/
 ├── tasks/              # Supporting operations
 └── teams/              # Agent collaborations
